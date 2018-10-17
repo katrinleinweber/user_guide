@@ -8,7 +8,11 @@ Below are a set of recommended good practices to keep in mind when writing a Com
 
 &#9744; No `type: string` parameters for names of input or reference files/directories; use `type: File` or `type: Directory` as appropriate.
 
-&#9744; Include a license that allows for re-use by anyone, e.g. [Apache 2.0][apache-license]. If possible, the license should be specified with its corresponding [SPDX identifier][spdx]. Construct the metadata field for the licence by providing a URL of the form `https://spdx.org/licenses/[SPDX-ID]` where `SPDX-ID` is the taken from the list of identifiers linked above. See the example snippet below for guidance. For non-standard licenses without an SPDX identifier, provide a URL to the license.
+&#9744; A CWL document (in conjunction with any `SoftwareRequirement`) is software code. Workflow developers should be aware that the usual rules of software licensing apply to this document. For example if the workflow is shared publicly, licensing terms have to be clear so that a future user can understand under what conditions they can run the workflow, modify it and/or combine it with other workflows. For this reason please consider including a license field in the document.
+If possible, the license should be specified with its corresponding [SPDX identifier][spdx]. Construct the metadata field for the licence by providing a URL of the form `https://spdx.org/licenses/[SPDX-ID]` where `SPDX-ID` is the taken from the list of identifiers linked above. See the example snippet below for guidance. For non-standard licenses without an SPDX identifier, provide a URL to the license.
+
+Useful reading: "[A Quick Guide to Software Licensing for the Scientist-Programmer][sci-license]"
+[sci-license]: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002598
 
 _Example of metadata field for license with SPDX identifier:_
 ~~~
