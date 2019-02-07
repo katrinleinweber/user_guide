@@ -7,7 +7,7 @@ Chilton, John; Heuer, Michael; Kartashov, Andrey; Kern, John; Leehr, Dan;
 Ménager, Hervé; Nedeljkovich, Maya; Scales, Matt; Soiland-Reyes, Stian;
 Stojanovic, Luka (2016): Common Workflow Language, v1.0. Specification,
 Common Workflow Language working group. https://w3id.org/cwl/v1.0/
-https://dx.doi.org/10.6084/m9.figshare.3115156.v2
+https://doi.org/10.6084/m9.figshare.3115156.v2
 
 @data{cwl,
   doi = {10.6084/m9.figshare.3115156.v2},
@@ -25,7 +25,7 @@ Luka Stojanovic
 
 # the above is from https://github.com/common-workflow-language/common-workflow-language/blob/master/CITATION
 
-Our preferred DOI for the "CWL User Guide" is http://doi.org/10.5281/zenodo.840129
+Our preferred DOI for the "CWL User Guide" is https://doi.org/10.5281/zenodo.840129
 
 The latest DOI for the "CWL User Guide" is:
 [![DOI](https://zenodo.org/badge/89621457.svg)](https://zenodo.org/badge/latestdoi/89621457)

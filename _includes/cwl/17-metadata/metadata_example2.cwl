@@ -35,7 +35,7 @@ s:contributor:
     s:email: mailto:briandoconnor@gmail.com
     s:name: Brian O'Connor
 
-s:citation: https://dx.doi.org/10.6084/m9.figshare.3115156.v2
+s:citation: https://doi.org/10.6084/m9.figshare.3115156.v2
 s:codeRepository: https://github.com/common-workflow-language/common-workflow-language
 s:dateCreated: "2016-12-13"
 s:license: https://spdx.org/licenses/Apache-2.0 
